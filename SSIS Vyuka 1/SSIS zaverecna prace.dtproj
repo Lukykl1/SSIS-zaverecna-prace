@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">X230</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeg6HK+EhS0eRj0MvhpX7fwAAAAACAAAAAAAQZgAAAAEAACAAAACLg/GtgM0Tw0cjEZC9GPwWOjg6G0Wit2L3TFwd01UH8QAAAAAOgAAAAAIAACAAAAAqn9D/0jLtlqK8MUrQyCOR7zcSdr/kfPmmlQxfx6d2FZAAAADLnt3f24pskiXvA7k5C0uuubV8KfvfJKhfOGVzpQiZZB5Aq2Upc1Zo0NBXX0awFz8s7hnVhty2/Noq3CGXOugo5VhwkvzJNAq4TLO5K0z+81FB7P/2zC/UfCsF8PlzD8zi4aw5gKWPMpN6vvo2qJwJSmeVZcAymbARHLyKkA/JXfrVVzG0jBQQKwf7C9dMWXxAAAAAoBlwCU3yaIlXAPm5LgbFrLwlIlXXhx13WtIPBq+G/NRda8r81mrYezeOZxDuo/6RUag+xjDu+OwB8V4NrTv8Vg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeg6HK+EhS0eRj0MvhpX7fwAAAAACAAAAAAAQZgAAAAEAACAAAABvPamTpJWK89h7WVEQkdG3O7KHCmndfY0cDjlxfVyIkAAAAAAOgAAAAAIAACAAAAAexsfYcDTX1zIkuovU8oTBi6uUUu6ibphPZ2dyCOI6O5AAAADOTAeFtsQO0x1ezrBv8O1IJsf9P+4WwZlveTGQ/eGIWouKLH0oJCBcT/yPItRbsOYrKNS0I0vkRVZKkTADGl7yQLmzWCW11bVBWM+oQMfII1Mk4PHhULeOegg0jBO+pRokIoEInwS0Gr4TYv55ihh1EloskAqz1NlDQb8o/uWfh7UnNoCI1M77oS/CWaWa/HpAAAAAKWWjEAOF9nriBFfNN9ERHNYNeSfI9B1ia/QpEbl+2AQDGMVPoBoMWNZjLAsprrSgwGBTva5l2P10Ibqd0WQenw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -312,10 +312,10 @@
                 <SSIS:Property SSIS:Name="Name">STG_SalesInvoiceLines</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">67</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">72</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{C929580A-1C05-45FD-8DED-56937B57C55B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{DFD4C7F9-B632-4BAE-8364-DDD2087B0D7D}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -386,8 +386,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Sales</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -401,8 +400,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">[InvoiceLines]</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
